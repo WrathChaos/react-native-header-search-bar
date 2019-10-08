@@ -1,8 +1,14 @@
 {
-  "name": "react-native-library-boilerplate",
+  "name": "react-native-header-search-bar",
   "version": "0.0.11",
   "description": "Description for library",
   "keywords": [
+    "header",
+    "search",
+    "bar",
+    "header-search",
+    "header-search-bar",
+    "search-bar",
     "FreakyCoder",
     "freakycoder",
     "kuray",
@@ -14,9 +20,9 @@
     "rn"
   ],
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-library-boilerplate/issues",
-  "main": "./lib/src/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-library-boilerplate.git",
+  "bugs": "https://github.com/WrathChaos/react-native-header-search-bar/issues",
+  "main": "./lib/src/HeaderSearchBar.js",
+  "repository": "git@github.com:WrathChaos/react-native-header-search-bar.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
