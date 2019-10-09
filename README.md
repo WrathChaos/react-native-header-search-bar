@@ -1,4 +1,4 @@
-<img alt="React Native Header Search Bar" src="https://github.com/WrathChaos/react-native-header-search-bar/blob/master/assets/logo.png" width="1050"/>
+<img alt="React Native Header Search Bar" src="assets/logo.png" width="1050"/>
 
 
 [![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-header-search-bar)
@@ -15,7 +15,7 @@
 
 <p align="center">
   <img alt="React Native Header Search Bar"
-        src="https://github.com/WrathChaos/react-native-header-search-bar/blob/master/assets/Screenshots/JSLibraryBoilerplate.png" />
+        src="assets/Screenshots/JSLibraryBoilerplate.png" />
 </p>
 
 ## Installation
@@ -74,19 +74,20 @@ import HeaderSearchBar from "react-native-header-search-bar";
 
 ## SearchBox Props
 
-| Property             |   Type    |      Default      | Description                                                |
-| -------------------- | :-------: | :---------------: | ---------------------------------------------------------- |
-| backgroundColor      |   color   |       #fff        | change the background color                                |
-| shadowColor          |   color   |       #000        | change the main shadow color                               |
-| firstTitle           |  string   |     Find your     | set the first title itself                                 |
-| secondTitle          |  string   | Favorite Art Work | set the second title itself                                |
-| firstTitleColor      |   color   |      #959597      | change the first title's text color                        |
-| secondTitleColor     |   color   |      #34343b      | change the second title's text color                       |
-| firstTitleFontSize   |  number   |        18         | change the first title font size                           |
-| secondTitleFontSize  |  number   |        18         | change the second title font size                          |
-| iconComponent        | component |  hamburger icon   | set your own component instead of hamburger icon component |
-| onPressHamburgerIcon | function  |       null        | set your own function when hamburger icon is on pressed    |
-
+| Property                 |   Type    |          Default          | Description                                           |
+| ------------------------ | :-------: | :-----------------------: | ----------------------------------------------------- |
+| iconName                 |  string   |          search           | set the icon name                                     |
+| iconType                 |  string   |         EvilIcons         | set the icon type                                     |
+| iconSize                 |  number   |            25             | set the icon size                                     |
+| iconColor                |   color   |           #000            | set the icon color                                    |
+| onChangeText             | function  |         function          | set your own logic for changing text                  |
+| searchBoxText            |  string   | What are you looking for? | set the search box's text                             |
+| searchBoxOnPress         | function  |         function          | set your own logic when tapping the search box itself |
+| searchBoxWidth           |  number   |            95%            | change the search box's width                         |
+| searchBoxBorderRadius    |  number   |             8             | change the search box's border radius                 |
+| searchBoxBackgroundColor |   color   |          #f5f5f5          | change the search box's background color              |
+| iconComponent            | component |           Icon            | set your own icon component instead of Icon           |
+| disableTextInput         |  boolean  |           false           | disable or enable the text input itself               |
 
 
 ### Future Plans
