@@ -15,7 +15,7 @@
 
 <p align="center">
   <img alt="React Native Header Search Bar"
-        src="assets/Screenshots/JSLibraryBoilerplate.png" />
+        src="assets/Screenshots/example.png" />
 </p>
 
 ## Installation
@@ -90,7 +90,7 @@ import HeaderSearchBar from "react-native-header-search-bar";
 | disableTextInput         |  boolean  |           false           | disable or enable the text input itself               |
 
 
-### Future Plans
+## Future Plans
 
 - [x] LICENSE
 - [ ] Write an article about the lib on Medium
