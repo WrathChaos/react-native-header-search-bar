@@ -95,6 +95,11 @@ import HeaderSearchBar from "react-native-header-search-bar";
 - [ ] Write an article about the lib on Medium
 
 
+## Inspiration
+
+Designed by: [Jawadur Rahman](https://www.instagram.com/p/B3RSEG9APnH/)
+
+
 ## Author
 
 FreakyCoder, kurayogun@gmail.com
