@@ -51,7 +51,7 @@ import HeaderSearchBar from "react-native-header-search-bar";
 # HeaderSearchBar Usage 
 
 ```js
-<HeaderSearchBar />
+<HeaderSearchBar onChangeText={text => console.log(text)} />
 ```
 
 # Configuration - Props
