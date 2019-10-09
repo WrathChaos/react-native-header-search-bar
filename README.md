@@ -58,7 +58,6 @@ import HeaderSearchBar from "react-native-header-search-bar";
 
 ## Main Props
 
-
 | Property             |   Type    |      Default      | Description                                                |
 | -------------------- | :-------: | :---------------: | ---------------------------------------------------------- |
 | backgroundColor      |   color   |       #fff        | change the background color                                |
