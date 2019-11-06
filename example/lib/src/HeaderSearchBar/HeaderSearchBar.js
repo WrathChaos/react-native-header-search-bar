@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Text, View, TouchableOpacity } from "react-native";
 import Androw from "react-native-androw";
 import Icon from "react-native-dynamic-vector-icons";
-import SearchBox from "./components/SearchBox/SearchBox";
+import SearchBox from "../components/SearchBox/SearchBox";
 import styles, {
   shadowStyle,
   container,

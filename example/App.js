@@ -1,13 +1,12 @@
 import React from "react";
 import { View, StatusBar } from "react-native";
-
-import HeaderSearchBar from "react-native-header-search-bar";
+import { HeaderSearchBar, HeaderClassicSearchBar } from "./lib/src/index";
 
 const App = () => {
   return (
     <View>
       <StatusBar barStyle="dark-content" />
-      <HeaderSearchBar onChangeText={text => console.log(text)} />
+      <HeaderClassicSearchBar onChangeText={text => console.log(text)} />
     </View>
   );
 };
