@@ -40,6 +40,11 @@ npm i react-native-header-search-bar
 "@freakycoder/react-native-helpers": ">= 0.0.21"
 ```
 
+# Component Options
+
+- HeaderSearchBar
+- HeaderClassicSearchBar
+
 ## Import
 
 ```js
