@@ -1,6 +1,6 @@
 {
   "name": "react-native-header-search-bar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fully customizable header search bar for React Native",
   "keywords": [
     "header",
@@ -21,7 +21,7 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-header-search-bar/issues",
-  "main": "./lib/src/HeaderSearchBar.js",
+  "main": "./lib/src/index.js",
   "repository": "git@github.com:WrathChaos/react-native-header-search-bar.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
