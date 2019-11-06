@@ -1,11 +1,8 @@
 <img alt="React Native Header Search Bar" src="assets/logo.png" width="1050"/>
 
-
 [![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-header-search-bar)
 
-
 [![Fully customizable header search bar for React Native](https://img.shields.io/badge/-Fully%20customizable%20header%20search%20bar%20for%20React%20Native-lightgrey?style=for-the-badge)](https://github.com/WrathChaos/react-native-header-search-bar)
-
 
 [![npm version](https://img.shields.io/npm/v/react-native-header-search-bar.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-header-search-bar)
 [![npm](https://img.shields.io/npm/dt/react-native-header-search-bar.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-header-search-bar)
@@ -16,6 +13,8 @@
 <p align="center">
   <img alt="React Native Header Search Bar"
         src="assets/Screenshots/example.png" />
+  <img alt="React Native Header Classic Search Bar"
+        src="assets/Screenshots/example2.png" />
 </p>
 
 ## Installation
@@ -44,14 +43,22 @@ npm i react-native-header-search-bar
 ## Import
 
 ```js
-import HeaderSearchBar from "react-native-header-search-bar";
+import {
+  HeaderSearchBar,
+  HeaderClassicSearchBar
+} from "react-native-header-search-bar";
 ```
 
+# HeaderSearchBar Usage
 
-# HeaderSearchBar Usage 
-
-```js
+```jsx
 <HeaderSearchBar onChangeText={text => console.log(text)} />
+```
+
+# HeaderClassicSearchBar Usage
+
+```jsx
+<HeaderClassicSearchBar onChangeText={text => console.log(text)} />
 ```
 
 # Configuration - Props
@@ -88,17 +95,15 @@ import HeaderSearchBar from "react-native-header-search-bar";
 | iconComponent            | component |           Icon            | set your own icon component instead of Icon           |
 | disableTextInput         |  boolean  |           false           | disable or enable the text input itself               |
 
-
 ## Future Plans
 
-- [x] LICENSE
+- [x] ~~LICENSE~~
+- [x] ~~Header Classic Search Bar Component~~
 - [ ] Write an article about the lib on Medium
-
 
 ## Inspiration
 
-Designed by: [Jawadur Rahman](https://www.instagram.com/p/B3RSEG9APnH/)
-
+Header Search Bar Component is designed by: [Jawadur Rahman](https://www.instagram.com/p/B3RSEG9APnH/)
 
 ## Author
 

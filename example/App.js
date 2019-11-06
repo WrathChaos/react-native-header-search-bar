@@ -1,6 +1,9 @@
 import React from "react";
 import { View, StatusBar } from "react-native";
-import { HeaderSearchBar, HeaderClassicSearchBar } from "./lib/src/index";
+import {
+  HeaderSearchBar,
+  HeaderClassicSearchBar
+} from "react-native-header-search-bar";
 
 const App = () => {
   return (
