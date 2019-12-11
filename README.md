@@ -36,6 +36,7 @@ npm i react-native-header-search-bar
 "react-native": ">= 0.55.x",
 "react-native-androw": ">= 0.0.33",
 "react-native-vector-icons": ">= 6.6.0",
+"react-native-safe-area-context": ">= 0.6.1",
 "react-native-dynamic-vector-icons": ">= 0.2.1",
 "@freakycoder/react-native-helpers": ">= 0.0.21"
 ```
