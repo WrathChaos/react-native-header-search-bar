@@ -93,7 +93,9 @@ import {
 | iconSize                 |  number   |            25             | set the icon size                                     |
 | iconColor                |   color   |           #000            | set the icon color                                    |
 | onChangeText             | function  |         function          | set your own logic for changing text                  |
+| value                    |  string   |         undefined         | set the value for search box's text input             |
 | searchBoxText            |  string   | What are you looking for? | set the search box's text                             |
+| searchBoxTextStyle       |   style   |          default          | set your own style for text input's style             |
 | searchBoxOnPress         | function  |         function          | set your own logic when tapping the search box itself |
 | searchBoxWidth           |  number   |            95%            | change the search box's width                         |
 | searchBoxBorderRadius    |  number   |             8             | change the search box's border radius                 |
