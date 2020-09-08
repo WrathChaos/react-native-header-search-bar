@@ -10,12 +10,26 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 
-<p align="center">
-  <img alt="React Native Header Search Bar"
+<table>
+  <tr>
+    <td>
+      <b>Header Search Bar</b>
+    </td>
+    <td>
+      <b>Header Classic Search Bar</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+       <img alt="React Native Header Search Bar"
         src="assets/Screenshots/example.png" />
-  <img alt="React Native Header Classic Search Bar"
+    </td>
+    <td align="center">
+     <img alt="React Native Header Classic Search Bar"
         src="assets/Screenshots/example2.png" />
-</p>
+    </td>
+  </tr>
+</table>
 
 ## Installation
 
@@ -32,8 +46,6 @@ npm i react-native-header-search-bar
 ###### IMPORTANT! You need install them.
 
 ```js
-"react": ">= 16.x.x",
-"react-native": ">= 0.55.x",
 "react-native-androw": ">= 0.0.33",
 "react-native-vector-icons": ">= 6.6.0",
 "react-native-safe-area-context": ">= 0.6.1",
