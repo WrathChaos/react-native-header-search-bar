@@ -12,7 +12,7 @@
   "dependencies": {
     "@freakycoder/react-native-helpers": "0.0.21",
     "react": "16.9.0",
-    "react-native": "0.61.2",
+    "react-native": "0.62.3",
     "react-native-androw": "0.0.33",
     "react-native-dynamic-vector-icons": "^0.2.1",
     "react-native-header-search-bar": "0.1.8",
